@@ -1,0 +1,61 @@
+body {
+    background-image: url('assets/valobg.jpg');
+    background-position: top; 
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-color: #131A24;
+    background-blend-mode: luminosity;
+}
+
+#bp-select-container {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 850px;
+    position: relative;
+}
+
+#bp-select {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+#bp-logo, .circle {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+}
+
+#bp-logo{
+    z-index: 10;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#bp-logo:hover + .circle{
+    opacity: 0.5;
+}
+
+#bp-logo:hover{
+    cursor: pointer;
+}
+
+.circle {
+    opacity: 0;
+    position: relative;
+    height: 410px;
+    width: 410px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.main-body {
+    height: 1080px;
+}
