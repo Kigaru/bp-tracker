@@ -56,6 +56,6 @@ body {
     display: inline-block;
 }
 
-.main-body {
+#main-body {
     height: 1080px;
 }
